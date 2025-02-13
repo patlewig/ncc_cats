@@ -1,0 +1,6 @@
+,dsstox_sid,smiles,mol_weight,ws,mol,logp
+0,DTXSID90480751,C[13C](Cl)=O,79.49,1.0,<rdkit.Chem.rdchem.Mol object at 0x0000014D3FC1AF10>,0.38
+1,DTXSID50939730,CC(=C)C([O-])=O,85.083,0.704,<rdkit.Chem.rdchem.Mol object at 0x0000014D3FC1AFF0>,0.857
+2,DTXSID2036405,[OH-].[OH-].[OH-].[Al+3],78.003,28.8,<rdkit.Chem.rdchem.Mol object at 0x0000014D3FC1B060>,-0.75
+3,DTXSID1024835,O=CC=CC1=CC=CC=C1,132.162,0.010700000000000001,<rdkit.Chem.rdchem.Mol object at 0x0000014D3FC1B0D0>,1.9
+4,DTXSID30878870,[N-]=[N+]=NC1=CC=CC=C1,119.127,0.021800000000000003,<rdkit.Chem.rdchem.Mol object at 0x0000014D3FC1B140>,2.59

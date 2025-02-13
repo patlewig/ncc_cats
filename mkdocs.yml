@@ -1,0 +1,10 @@
+site_name: EPA NCC
+#
+nav:
+    - Home: index.md
+    - Getting Started: getting_started.md
+    - Input Formats: input_formats.md
+site_author: patlewig
+#
+theme: readthedocs
+
