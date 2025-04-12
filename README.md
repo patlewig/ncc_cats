@@ -2,7 +2,7 @@ ncc_cats
 ==============================
 
 A python package that codifies the current EPA New Chemicals Categories (NCC). These are a set of 56 chemical categories that EPA uses within its assessments under the New Chemicals Program assessment. More information about these categories can be found here (https://www.epa.gov/reviewing-new-chemicals-under-toxic-substances-control-act-tsca/chemical-categories-used-review-new).
-The package herein allows for chemicals is be assigned in accordance with the NCC based on their chemical structure and selected physicochemical parameters. The NCC implemented herein used the NCC profiler from the OECD QSAR Toolbox v4.6 as a foundation. 
+The package herein allows for chemicals is be assigned in accordance with the NCC based on their chemical structure and selected physicochemical parameters. The NCC implemented herein adapted the NCC profiler from the OECD QSAR Toolbox v4.6 and extended it. 
 
 Install locally by using `pip install -e .` when in the root directory.
 

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["epa_ncc"]
+
+[tool.setuptools.package-data]
+ncc_categories = ['data/*']
+
+[project]
+name = "epa_ncc"
+version = "0.0.1"
+description = "EPA NCC Python Implementation"
+readme = "README.md"
+
+requires-python = ">=3.10"
+dependencies = [
+    "pandas", "numpy","rdkit"
+]
+
+keywords = ["categories", "read-across", "EPA New Chemical Categories (NCC)"]
+license = {file = "LICENSE"}
+authors = [{name = "Aubrey Leary", email = "leary.aubrey@epa.gov"}, {name = "Grace Patlewicz", email = "patlewicz.grace@epa.gov"}]
+classifiers = ["Development Status :: 3 - Alpha",
+"Intended Audience :: Developers",
+"Programming Language :: Python :: 3",
+"Operating System :: Ubuntu :: Linux",
+]
+
+[project.urls]
+Homepage = "https://github.com/g-patlewig/ncc_cats"
