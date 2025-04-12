@@ -32,4 +32,4 @@ classifiers = ["Development Status :: 3 - Alpha",
 ]
 
 [project.urls]
-Homepage = "https://github.com/g-patlewig/ncc_cats"
+Homepage = "https://github.com/patlewig/ncc_cats"
