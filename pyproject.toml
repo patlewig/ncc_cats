@@ -3,10 +3,13 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-where = ["epa_ncc"]
+where = ["."]
+
+[tool.setuptools]
+include-package-data = true
 
 [tool.setuptools.package-data]
-ncc_categories = ['data/*']
+"epa_ncc.ncc_categories" = ["data/*"]
 
 [project]
 name = "epa_ncc"
